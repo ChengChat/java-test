@@ -8,27 +8,17 @@ import priv.chengchat.aop.worker.WorkerService;
 
 /**
  * 执行结果
-
- experimentEnable closed executing calcNumberA
- ...performing addition operation, result = 8...
- experimentEnable closed executing useNewVersion
- ...executing new version...
- experimentEnable closed executing calcNumberA
- ...performing addition operation, result = 8...
- experimentEnable closed executing useNewVersion
- ...executing new version...
+ performing addition operation, result = 8
+ executing new version
+ performing addition operation, result = 8
+ executing new version
 
 在控制台输入 true 后
- switching switches
  the switch has been switched, experimentEnable = true
- experimentEnable opened, executing calcNumberB
- ...performing multiplication operation, result = 15...
- experimentEnable opened, executing useOldVersion
- ...executing old version...
- experimentEnable opened, executing calcNumberB
- ...performing multiplication operation, result = 15...
- experimentEnable opened, executing useOldVersion
- ...executing old version...
+ performing multiplication operation, result = 15
+ executing old version
+ performing multiplication operation, result = 15
+ executing old version
 
  */
 public class Main {

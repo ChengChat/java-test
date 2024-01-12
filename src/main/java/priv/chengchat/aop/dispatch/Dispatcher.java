@@ -11,7 +11,6 @@ public class Dispatcher {
     while (scanner.hasNext()) {
       try {
         boolean enable = scanner.nextBoolean();
-        System.out.println("switching switches");
         ExperimentProperties.experimentEnable(enable);
         System.out.println("the switch has been switched, experimentEnable = " + ExperimentProperties.experimentEnable());
       } catch (Throwable ignored) {
